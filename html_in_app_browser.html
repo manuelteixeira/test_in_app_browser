@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Test redirects</title>
+</head>
+<body>
+    <h2>Test in-app browser</h2>
+    <button onclick="openExternalBrowser()">Go to external browser</button>
+
+    <script>
+        function openExternalBrowser() {
+            // Define the URL you want to open in the external browser
+            var externalURL = "https://www.example.com";
+
+            // Open the URL in a new window (external browser)
+            window.open(externalURL, "_blank");
+        }
+    </script>
+</body>
+</html>
